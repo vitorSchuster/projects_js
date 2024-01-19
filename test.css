@@ -1,0 +1,19 @@
+.color{
+    background-color: rgb(1, 45, 45);
+    color: aliceblue;
+}
+.centered{
+    text-align: center;
+}
+.huge{
+    width: 500px;
+    height: 200px;
+    background-color: antiquewhite;
+    display: flex;
+    font-size: 200%;   
+    color: rgb(0, 34, 255);
+    font-style: normal;
+}
+.photo{
+    text-align: center;
+}

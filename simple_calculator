@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: black;
+            color: white;
+        }
+</style>
+</head>
+<!--comment-->
+<body>
+    <h1>hello world</h1>
+    <p>i am free from the curse </p>
+<script>
+    var n1 = Number /*parseFloat para real*/(window.prompt('give me a number'))
+    var n2 = Number /*parseFloat para inteiro*/ (window.prompt('give me another number'))
+    var soma = n1 + n2//detalhe: declarar após definir se é numero caso contrario NaN
+    //string para number    
+    alert('the result of '+n1+' + '+n2+" is " + soma)
+    var simple = 'javascript'
+    alert(simple)
+//${variavel} placeholder para fazer: +var+ mais facil usa se `${nome} é guai kk`
+</script>
+</body>
+</html>

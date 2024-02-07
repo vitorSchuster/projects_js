@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- formularior-->
+    <h1>bem-vindo esse é meu site html</h1>
+    <h2>preencha o formulário abaixo:</h2>
+    <br>
+    <form action="script_de_formulario.php">
+        <!--dados pessoais-->
+        <fieldset>
+            <legend>Dados pessoais</legend>
+            <table cellspacing="10">
+                <tr>
+                    <!--linha & td coluna-->
+                    <td>
+                        <label for="nome">Nome: </label>
+                    </td>
+                    <td align="left">
+                        <input type="text" name="nome">
+                    </td>
+                    <td>
+                        <label for="text">SOBRENOME: </label>
+                    </td>
+                    <td align="left">
+                        <input type="text" name="sobrenome">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="nascimento">NASCIMENTO: </label>
+                    </td>
+                    <td align="left">
+                        <input type="text" name="dia" size="2" maxlength="2" placeholder="dd">
+                        <input type="text" name="mes" size="2" maxlength="2" placeholder="mm">
+                        <input type="text" name="ano" size="2" maxlength="4" placeholder="aaaa">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="RG">RG:</label>
+                    </td>
+                    <td align="left">
+                        <input type="text" name="RG" size="13" maxlenght="13">
+                    </td>
+
+                </tr>
+                <tr>
+                    <td>
+                        <label for="CPF">CPF:</label>
+                    </td>
+                    <td align="left">
+                        <input type="text" name="CPF" size="9" maxlenght="9">
+                        <input type="text" name="CPF2" size="2" maxlenght="2">
+                    </td>
+                </tr>
+                <br>
+            </table>
+        </fieldset>
+        <fieldset>
+            <legend>Dados de Endereço</legend>
+            <table cellspacing="10">
+                <tr>
+                    <td>
+                        <label for="tipo">TIPO:</label>
+                    </td>
+                    <td>
+                        <input type="text" name="tipo">
+                    </td>
+                    <td>
+                        <label for="numero">NUMERO:</label>
+                    </td>
+                    <td>
+                        <input type="number" name="numero">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="bairro">BAIRRO: </label>
+                    </td>
+                    <td>
+                        <input type="text" name="bairro">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="estado">ESTADO: </label>
+                    </td>
+                    <td>
+                        <select name="estado">
+                            <option value="">selecione um estado</option>
+                            <option value="AC">Acre</option>
+                            <option value="AL">Alagoas</option>
+                            <option value="AP">Amapá</option>
+                            <option value="AM">Amazonas</option>
+                            <option value="BA">Bahia</option>
+                            <option value="CE">Ceará</option>
+                            <option value="DF">Distrito Federal</option>
+                            <option value="ES">Espírito Santo</option>
+                            <option value="GO">Goiás</option>
+                            <option value="MA">Maranhão</option>
+                            <option value="MT">Mato Grosso</option>
+                            <option value="MS">Mato Grosso do Sul</option>
+                            <option value="MG">Minas Gerais</option>
+                            <option value="PA">Pará</option>
+                            <option value="PB">Paraíba</option>
+                            <option value="PR">Paraná</option>
+                            <option value="PE">Pernambuco</option>
+                            <option value="PI">Piauí</option>
+                            <option value="RJ">Rio de Janeiro</option>
+                            <option value="RN">Rio Grande do Norte</option>
+                            <option value="RS">Rio Grande do Sul</option>
+                            <option value="RO">Rondônia</option>
+                            <option value="RR">Roraima</option>
+                            <option value="SC">Santa Catarina</option>
+                            <option value="SP">São Paulo</option>
+                            <option value="SE">Sergipe</option>
+                            <option value="TO">Tocantins</option>
+                            <option value="EX">Estrangeiro</option>
+                        </select>
+                    </td>
+                <tr>
+                    <td>
+                        <label for="cidade">CIDADE: </label>
+                    </td>
+                    <td>
+                        <input type="text" name="cidade">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="CEP">CEP: </label>
+                    </td>
+                    <td>
+                        <input type="text" name="CEP" size="5">
+                        <input type="text" name="CEP" size="3">
+                    </td>
+                </tr>
+                </tr>
+            </table>
+        </fieldset>
+        <fieldset>
+            <legend>Dados pessoais</legend>
+            <table cellspacing="10">
+                <tr>
+                    <td align="left">
+                        <label for="email">EMAIL: </label>
+                    </td>
+                    <td>
+                        <Input type="email"></Input>
+                    </td>
+                </tr>
+                <tr>
+                    <td align="left">
+                        <label for="imagem_usuario">IMAGEM:</label>
+                    </td>
+                    <td>
+                        <INput type="file"></INput>
+                    </td>
+                </tr>
+                <tr>
+                    <td align="left">
+                        <label for="login">LOGIN: </label>
+                    </td>
+                    <td>
+                        <input type="text"></input>
+                    </td>
+                </tr>
+                <tr>
+                    <td align="left">
+                        <label for="senha">SENHA: </label>
+                    </td>
+                    <td>
+                        <input type="password"></input>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="senha_confirma">CONFIRMAR SENHA: </label>
+                        </td>
+                    <td>
+                        <input type="password"></input>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <button>enviar</button>
+                        <button>limpar</button>
+                    </td>
+                </tr>
+            </table>
+        </fieldset>
+    </form>
+</body>
+</html>
